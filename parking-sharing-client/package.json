@@ -1,0 +1,31 @@
+{
+  "name": "parking-sharing-client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bootstrap": "^4.1.3",
+    "rc-calendar": "^9.7.0",
+    "react": "^16.4.2",
+    "react-calendar": "^2.17.1",
+    "react-day-picker": "^7.2.0",
+    "react-dom": "^16.4.2",
+    "react-helmet": "^5.2.0",
+    "react-redux": "^5.0.7",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-router-redux": "^5.0.0-alpha.9",
+    "react-scripts": "1.1.4",
+    "react-toggle": "^4.0.2",
+    "reactstrap": "^6.3.1",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.3.0",
+    "validate.js": "^0.12.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

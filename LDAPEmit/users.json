@@ -1,0 +1,32 @@
+{
+  "users": [
+    {
+      "username": "yaantsyferov",
+      "password": "111111",
+      "email": "o.loo2016@gmail.com",
+      "firstname":"Yan",
+      "lastname":"Antsyferov",
+      "location":"Odessa",
+      "token": "token1"
+    },
+    {
+      "username": "sturchaninov",
+      "password": "222222",
+      "email": "yananciferov@gmail.com",
+      "firstname":"Sergii",
+      "lastname":"Turchaninov",
+      "location":"Odessa",
+      "token": "token2"
+    },
+    {
+      "username": "kate.malova",
+      "password": "333333",
+      "email": "testyansocial@gmail.com",
+      "firstname":"Ekaterina",
+      "lastname":"Malova",
+      "location":"Odessa",
+      "token": "token3"
+
+    }
+  ]
+}

@@ -1,0 +1,402 @@
+body, html, #root{
+  height: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+
+.App{
+    height: 100%;
+}
+
+.auth-app{
+    display: flex;
+    height: 100%;
+    background-color: #EBEEEF;
+}
+
+.side-wrapper{
+    height: 100%;
+    background-color: #F3F3F3;
+    flex-basis: 200px;
+    box-shadow: 1px 0 3px 0 rgba(0, 0, 0, 0.3);
+}
+
+.user-wrapper{
+    height: 100%;
+    flex-basis: 50px;
+}
+
+.main-wrapper{
+    height: 100%;
+    flex-grow: 1;
+    padding: .5em;
+    padding-bottom: 0;
+    box-sizing: border-box;
+}
+
+.main-paper{
+    background-color: #fff;
+    border-radius: 3px;
+    width: 100%;
+    height: calc(100% - 2px);
+    border: 1px solid #e6e6e6;
+    padding: 1em;
+    padding-top: .7em;
+    overflow: auto;
+}
+
+
+.main-paper::-webkit-scrollbar {
+    width: 10px;
+}
+
+.main-paper::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.main-paper::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+.main-paper::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+
+.login-form-wrapper{
+    width: 350px;
+    margin-top: 100px;
+}
+
+.login-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.page-header{
+    font-family: "Segoe UI Light";
+    font-size: 2em;
+    margin-bottom: 1.1em;
+}
+
+
+.city-item{
+    border: 1px solid #e2e2e2;
+    border-top: 3px solid #33b34a;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 12em;
+    margin-bottom: 1em;
+    width: 49%;
+}
+
+.place-wrapper{
+    border: 1px solid #e2e2e2;
+    border-top: 3px solid #33b34a;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
+    padding: 1em;
+}
+
+.cities-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.city-item:hover{
+    cursor: pointer;
+    color: white;
+}
+
+.item-link{
+    transition: color .5s;
+    transition: background-color .5s;
+    color: black;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-link:hover{
+    color: black;
+    background-color: rgba(51, 179, 74, 0.09);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.side-menu > a {
+    display: block;
+    color: #666666;
+    padding: 1em 1em 1em 1em;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.side-menu > a:hover {
+    background-color: rgba(204, 137, 48, 0.58);
+    color: #666666;
+    text-decoration: none;
+}
+
+.side-menu > a.selected-menu-item {
+    background-color: #33b34a !important;
+    color: white;
+}
+
+.user-wrapper{
+    padding: .5em .5em 0 0;
+}
+
+.user-wrapper .avatar{
+    padding: 0;
+    background-color: #333;
+    height: 2.6em;
+    border-radius: 50%;
+    width: 2.6em;
+    overflow: hidden;
+    border: none;
+    outline: none;
+}
+
+.user-wrapper .avatar:focus{
+    box-shadow: none;
+}
+
+.avatar img{
+    width: 100%;
+}
+
+.headOfPage{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-wrapper{
+    height: 60px;
+}
+
+.logo-wrapper img{
+    height: 100%;
+}
+
+
+
+.message-wrapper{
+    font-weight: lighter;
+    color: #7d7d7d;
+    margin: 7em auto 0;
+    max-width: 600px;
+    display: flex;
+    justify-content: center;
+}
+
+.body-message{
+    font-size: 2em;
+    margin-bottom: .3em;
+
+}
+
+.head-message {
+    font-size: 1.8em;
+    padding-left: 1em;
+    margin-bottom: 1em;
+}
+
+.message-container{
+    border-left: 4px solid #54B8DF;
+    padding: 1em;
+
+}
+
+.login-form-wrapper .logo img{
+    width: 100%;
+}
+
+
+.login-form-wrapper .logo{
+    margin-bottom: 3em;
+    text-align: center;
+}
+
+.login-submit{
+    margin-right: 1em;
+}
+
+.user-wrapper .dropdown-link{
+    text-decoration: none;
+}
+
+button.dropdown-item {
+    cursor: pointer;
+}
+
+.m-r-1{
+    margin-right: 1em;
+}
+
+.icon-bar{
+    width: 2em;
+    height: 2em;
+    margin-right: 1em;
+}
+
+.icon-bar img{
+    width: 100%;
+    height: 100%;
+}
+
+a.menu-item{
+    display: flex;
+    align-items: center;
+}
+
+.side-wrapper.close-menu .side-menu-main{
+    margin-top: 2.7em;
+}
+
+
+
+.side-wrapper.close-menu .menu-item-text{
+    display: none;
+}
+
+.side-wrapper.close-menu .menu-item{
+    padding: 1em 0 1em 1em;
+}
+
+.side-wrapper.close-menu {
+    flex-basis: 0;
+    width: 5em;
+}
+
+.side-wrapper.close-menu #location-combo{
+    display: none;
+}
+
+
+.toggle-button{
+    width: 4em;
+    height: 4em;
+    cursor: pointer;
+    box-sizing: border-box;
+    padding: 1em;
+}
+
+.toggle-button img{
+    width: 100%;
+}
+
+#location-combo{
+    margin: .15em .7em;
+    border-top: 1px solid #717b91;;
+    border-bottom: 1px solid #717b91;;
+    color: #666666;
+    cursor: pointer;
+}
+
+
+#location-combo .citySelect {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #666666;
+    width: 100%;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#location-combo .citySelect:hover {
+    background-color: transparent;
+    color: #666666;
+}
+
+#location-combo .citySelect:focus {
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background-color: transparent;
+}
+
+.placeType{
+    border: 2px solid #33B34A;
+    border-radius: 5px;
+    width: 20em;
+    height: 21em;
+    padding: 1em;
+}
+
+.placeType img{
+   width: 100%;
+
+}
+
+
+.place-content{
+    display: flex;
+}
+
+.location-name{
+    font-size: 2em;
+    line-height: 1em;
+}
+
+.place-buttons{
+    display: flex;
+    flex-direction: column;
+    margin-right: 1em;
+}
+
+.place-buttons > * {
+    margin-bottom: 1em;
+}
+
+.place-header {
+    margin-bottom: 1em;
+}
+
+.calendar-wrapper{
+    border: 2px solid #33B34A;
+    border-radius: 5px;
+    width: 20em;
+    display: flex;
+    justify-content: center;
+    margin-right: 1em;
+}
+
+
+.right-side{
+    display: flex;
+}
+
+.releaseForLongTime{
+    display: flex;
+}
+
+@media screen and (max-width: 1304px) {
+    .right-side {
+        margin-top: 1em;
+    }
+}
